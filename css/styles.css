@@ -10,7 +10,17 @@
    justify-content: center;
 }
 
-
+.container::before {
+      content: "";
+      background-image: url('https://img3.stockfresh.com/files/s/silkenphotography/m/52/5564096_stock-photo-green-leafy-background-with-sunburst.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.32;
+}
 
 .title {
   position: relative;
