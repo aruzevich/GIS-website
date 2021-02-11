@@ -22,6 +22,11 @@
       opacity: 0.32;
 }
 
+*
+[margin: 0;
+padding: 0;
+]
+
 .title {
   position: relative;
 }
